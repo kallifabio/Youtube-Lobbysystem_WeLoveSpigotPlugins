@@ -28,17 +28,16 @@
     
     <repositories>
         <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+            <id>minecraft</id>
+            <url>https://your-repo.net/</url>
         </repository>
     </repositories>
     
     <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.11.2-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
+            <artifactId>spigot</artifactId>
+            <version>1.12.2</version>
         </dependency>
         <dependency>
 		<groupId>org.projectlombok</groupId>
